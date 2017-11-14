@@ -5,16 +5,17 @@
     <title>Titl</title>
 </head>
 <body>
-<form method="get" action="">
-    <input type="text" name="ime" placeholder="Unesite ime">
-    <input type="text" name="prezime" placeholder="Unesite prezime">
+<form method="get" action="pehape.php">
+    <input type="text" name="ime" placeholder="Unesite ime"><br>
+    <input type="text" name="prezime" placeholder="Unesite prezime"><br>
     <input type="text" name="ulica" placeholder="Unesite ulicu">
     <p>Broj:</p>
-    <input type="text" name="broj">
+    <input type="text" name="broj"><br>
     <textarea placeholder="Primjedba" name="primjedba"></textarea>
     <p>E-mail:</p>
-    <input type="radio" name="email">DA
-    <input type="radio" name="email">NE
+    <input type="radio" name="email">DA<br>
+    <input type="radio" name="email">NE<br>
+    <p>Zemlja:</p>
     <select name="zemlja">
         <option value="Italija">Italija</option>
         <option value="Mađarska">Mađarska</option>
@@ -23,9 +24,12 @@
         <option value="Irska">Irska</option>
         <option value="Engleska">Engleska</option>
     </select>
-    <input type="text" name="kor_ime" placeholder="Unesite korisničko ime">
-    <input type="password" name="lozinka">
+    <br>
+    <input type="text" name="kor_ime" placeholder="Unesite korisničko ime"><br>
+    <input type="password" name="lozinka"><br>
     <input type="password" name="ponovi">
+    <button type="submit">pošalji</button>
+    <button type="reset">resetiraj</button>
 </form>
 </body>
 </html>
